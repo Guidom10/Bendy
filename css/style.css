@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.fondo {
+    background-size: cover;
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.mitad__2 {
+    height: 50vh;
+}
+
+.titulo {
+    position: absolute;
+    width: 328px;
+    height: 92px;
+    left: 193px;
+    top: 121px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.parrafo {
+    position: absolute;
+    width: 553px;
+    height: 108px;
+    left: 193px;
+    top: 223px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.pasos {
+    position: absolute;
+    left: 37%;
+}
+
+.FlexContainer {
+    position: absolute;
+    top: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.FlexContainer div {
+    margin: 0px 15px 0px 15px;
+
+}
+
+.cards {
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    justify-content: center;
+}
+
+.iconos {
+    margin-left: 30%;
+}
+
+.texto__cards {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+
+    font-weight: 700;
+}
+
+.boton {
+    font-weight: 600;
+    left: 45%;
+    top: 100%;
+    position: absolute;
+    background: #763698;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 12px;
+    transition: all .3s;
+}
+
+.texto__secundario {
+    position: absolute;
+    left: 90%;
+    width: 120px;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+.boton:hover {
+    background-color: #0CC8B2;
+}
+
+.grid__login {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.madre {
+    width: 100%;
+    height: 100vh;
+
+}
+
+h1.secundario {
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.olvidate {
+    color: #000000;
+    font-weight: 400;
+}
+
+.secundario__2 {
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contendor__icons {
+    column-gap: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.notienes {
+
+    font-weight: 500;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+.profesionales {
+    display: flex;
+    flex-direction: initial;
+}
+.seccion__1 {
+    width: 20%;
+}
+
+.contenedor__filtros {
+    background-color: #EEEEF4;
+    border-radius: 0px 20px 20px 0px;
+}
+.seccion__2 {
+    display: inline-block;
+    width: 80%
+}
+.encontra {text-align: center;}
+
+.contenedor {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.tarjetas {
+    border-radius: 20px;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    width: 347px;
+    
+   
+}
+.tarjeta__cuerpo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.titulo__tarjeta {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    grid-column: 1 ;
+    grid-row: 1 ;
+}
+
+.matricula {
+    margin-top: 5px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.parrafo__tarjeta {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.icono__tarjeta {
+    margin-top: 10px;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.boton__tarjeta {
+    margin-left: auto;
+    color: #FFFFFF;
+    border: none;
+    background-color: #763698;
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    transition: all .3s;
+}
+
+.vermas {margin-top: 10px;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.boton__tarjeta:hover {
+    background-color: #0CC8B2;
+}
